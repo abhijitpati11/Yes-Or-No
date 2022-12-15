@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#696848, #eeafaf);
+    border-radius: 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+
+}
